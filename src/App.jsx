@@ -4,6 +4,9 @@ import DebounceComponent from './hooks/useDebounce/DebounceComponent'
 import UpdateEffectComponent from './hooks/useUpdateEffect/UpdateEffectComponent'
 import ArrayComponent from './hooks/useArray/ArrayComponent'
 import StorageComponent from './hooks/useStorage/StorageComponent'
+import DocumentComponent from './hooks/useDocumentTitle/DocumentComponent'
+import ChangeLoggerComponent from './hooks/useChangeLogger/ChangeLoggerComponent'
+import QueryComponent from './hooks/useQuery/QueryComponent'
 
 import './App.css'
 
@@ -14,7 +17,10 @@ function App() {
     // <DebounceComponent />
     // <UpdateEffectComponent />
     // <ArrayComponent />
-    <StorageComponent />
+    // <StorageComponent />
+    // <DocumentComponent />
+    // <ChangeLoggerComponent />
+    <QueryComponent />
   )
 }
 
