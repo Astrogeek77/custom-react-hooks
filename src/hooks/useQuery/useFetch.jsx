@@ -1,30 +1,35 @@
 // a react custom hook to make requests to a url and get the response / data
+import { useState, useEffect } from 'react'
 
-import { useState, useEffect } from "react";
-
-const useFetch = url => {
-  const [error, setError] = useState();
+const useFetch = (url = '', options = null) => {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState([]);
-  
+
   useEffect(() => {
-    const fetchInfo = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch(url);
-        const result = await response.json();
-        console.log(result)
-        setResult(result);
-      } catch (error) {
-        setError(error);
-      }
-      setLoading(false);
-    };
+    let isMounted = true;
+    setLoading(true);
 
-    fetchInfo();
-  }, [url]);
+    fetch(url, options)
+      .then(res => res.json())
+      .then(data => {
+        if (isMounted) {
+          setData(data);
+          setError(null);
+        }
+      })
+      .catch(error => {
+        if (isMounted) {
+          setError(error);
+          setData(null);
+        }
+      })
+      .finally(() => isMounted && setLoading(false));
 
-  return { error, loading, result };
+    return () => (isMounted = false);
+  }, [url, options]);
+
+  return { loading, error, data };
 };
 
 export default useFetch;

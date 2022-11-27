@@ -3,7 +3,7 @@ import useFetch from './useFetch'
 
 function QueryComponent() {
   const url = 'https://jsonplaceholder.typicode.com/posts'
-  const { error, loading, posts } = useFetch(url);
+  const { loading, error, posts } = useFetch(url);
     
   return (
       <>
