@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 // hook to add a event listener to a target
 const useEventListener = (

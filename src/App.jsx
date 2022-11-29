@@ -12,6 +12,10 @@ import PreviousComponent from './hooks/usePrevious/PreviousComponent'
 import StateWithHistoryComponent from './hooks/useStateWithHistory/StateWithHistoryComponent'
 import AsyncComponent from './hooks/useAsync/AsyncComponent'
 import FetchComponent from './hooks/useFetch/FetchComponent'
+import CookiesComponent from './hooks/useCookies/CookiesComponent'
+import HoverComponent from './hooks/useHover/HoverComponent'
+import KeyPressComponent from './hooks/useKeyPress/KeyPressComponent'
+import LoadScriptComponent from './hooks/useLoadScript/LoadScriptComponent'
 
 import './App.css'
 
@@ -30,7 +34,11 @@ function App() {
     // <PreviousComponent />
     // <StateWithHistoryComponent />
     // <AsyncComponent />
-    <FetchComponent />
+    // <FetchComponent />
+    // <CookiesComponent />
+    // <HoverComponent />
+    // <KeyPressComponent />
+    <LoadScriptComponent />
   )
 }
 
