@@ -26,12 +26,8 @@
 | 19 | [useCookies](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCookies/useCookie.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCookies/CookiesComponent.jsx) |
 | 20 | [useToggle](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useToggle/useToggle.jsx) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useToggle/ToggleComponent.jsx) |
 | 21 | [useUpdateEffect](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useUpdateEffect/useUpdateEffect.jsx) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useUpdateEffect/UpdateEffectComponent.jsx) |
-<!-- | 22 | []() | [use]() |
-| 23 | []() | [use]() |
-| 24 | []() | [use]() |
-| 25 | []() | [use]() |
-| 26 | []() | [use]() |
-| 27 | []() | [use]() |
-| 28 | []() | [use]() |
-| 29 | []() | [use]() |
-| 30 | []() | [use]() | -->
+| 22 | [useWindowSize](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useWindowSize/useWindowSize.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useWindowSize/WindowSizeComponent.jsx) |
+| 23 | [useRenderCount](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useRenderCount/useRenderCount.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useRenderCount/RenderCountComponent.jsx) |
+| 24 | [useOnScreen](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/useOnScreen.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/ScreenComponent.jsx) |
+| 25 | [useGeoLocation](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useGeoLocation/useGeoLocation.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useGeoLocation/GeoLocationComponent.jsx) |
+
