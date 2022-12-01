@@ -17,6 +17,9 @@ import HoverComponent from './hooks/useHover/HoverComponent';
 import KeyPressComponent from './hooks/useKeyPress/KeyPressComponent';
 import LoadScriptComponent from './hooks/useLoadScript/LoadScriptComponent';
 import GeolocationComponent from './hooks/useGeolocation/useGeoLocation';
+import ClickOutsideComponent from './hooks/useClickOutside/ClickOutsideComponent'
+import SizeComponent from './hooks/useSize/SizeComponent'
+import EffectOnceComponent from './hooks/useEffectOnce/EffectOnceComponent';
 
 import './App.css';
 
@@ -40,7 +43,10 @@ function App() {
     // <HoverComponent />
     // <KeyPressComponent />
     // <LoadScriptComponent />
-    <GeolocationComponent />
+    // <GeolocationComponent />
+    // <ClickOutsideComponent />
+    <SizeComponent />
+    // <EffectOnceComponent />
   );
 }
 

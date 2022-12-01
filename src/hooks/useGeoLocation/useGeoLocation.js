@@ -12,6 +12,7 @@ export default function useGeolocation(options) {
       setError(null);
       setData(e.coords);
     };
+    
     // error handling
     const errorHandler = (e) => {
       setError(e);
@@ -31,6 +32,7 @@ export default function useGeolocation(options) {
       errorHandler,
       options
     );
+    
     // cleanup
     return () => navigator.geolocation.clearWatch(id);
   }, [options]);

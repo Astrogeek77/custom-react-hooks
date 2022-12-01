@@ -1,11 +1,12 @@
 import useGeolocation from './useGeolocation';
 
 export default function GeoLocationComponent() {
-  const [
+  console.log(useGeolocation());
+  const {
     loading,
     error,
     data,
-  ] = useGeolocation();
+  } = useGeolocation();
 
   return (
     <>
