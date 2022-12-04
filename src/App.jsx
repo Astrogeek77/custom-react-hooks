@@ -20,6 +20,7 @@ import GeolocationComponent from './hooks/useGeolocation/useGeoLocation';
 import ClickOutsideComponent from './hooks/useClickOutside/ClickOutsideComponent'
 import SizeComponent from './hooks/useSize/SizeComponent'
 import EffectOnceComponent from './hooks/useEffectOnce/EffectOnceComponent';
+import CopyToClipboardComponent from './hooks/useCopyToClipboard/CopyToClipboardComponent'
 
 import './App.css';
 
@@ -45,8 +46,9 @@ function App() {
     // <LoadScriptComponent />
     // <GeolocationComponent />
     // <ClickOutsideComponent />
-    <SizeComponent />
+    // <SizeComponent />
     // <EffectOnceComponent />
+    <CopyToClipboardComponent />
   );
 }
 
