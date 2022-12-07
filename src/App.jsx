@@ -21,6 +21,8 @@ import ClickOutsideComponent from './hooks/useClickOutside/ClickOutsideComponent
 import SizeComponent from './hooks/useSize/SizeComponent'
 import EffectOnceComponent from './hooks/useEffectOnce/EffectOnceComponent';
 import CopyToClipboardComponent from './hooks/useCopyToClipboard/CopyToClipboardComponent'
+import CamelCaseComponent from './hooks/useCamelCase/CamelCaseComponent'
+import ToggleTextComponent from './hooks/useToggleText/ToggleTextComponent'
 
 import './App.css';
 
@@ -48,7 +50,9 @@ function App() {
     // <ClickOutsideComponent />
     // <SizeComponent />
     // <EffectOnceComponent />
-    <CopyToClipboardComponent />
+    // <CopyToClipboardComponent />
+    // <CamelCaseComponent />
+    <ToggleTextComponent />
   );
 }
 
