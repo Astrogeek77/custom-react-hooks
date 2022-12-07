@@ -30,4 +30,18 @@
 | 23 | [useRenderCount](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useRenderCount/useRenderCount.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useRenderCount/RenderCountComponent.jsx) |
 | 24 | [useOnScreen](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/useOnScreen.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/ScreenComponent.jsx) |
 | 25 | [useGeoLocation](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useGeoLocation/useGeoLocation.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useGeoLocation/GeoLocationComponent.jsx) |
-
+| 26 | [useToggleText](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useToggleText/useToggleText.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useToggleText/ToggleTextComponent.jsx) |
+| 27 | [useOnlineStatus](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnlineStatus/useOnlineStatus.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnlineStatus/OnlineStatusComponent.jsx) |
+| 28 | [useMemoCompare](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useMemoCompare/useMemoCompare.js) | [use] |
+| 29 | [useOnScreen](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/useOnScreen.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useOnScreen/ScreenComponent.jsx) |
+| 30 | [usePageBottom](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/usePageBottom/usePageBottom.js) | [use] |
+| 31 | [useCamelCase](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCamelCase/useCamelCase.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCamelCase/CamelCaseComponent.jsx) |
+| 32 | [useClickOutside](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useClickOutside/useClickOutside.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useClickOutside/ClickOutsideComponent.jsx) |
+| 33 | [useCopyToClipboard](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCopyToClipboard/useCopyToClipboard.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useCopyToClipboard/CopyToClipboardComponent.jsx) |
+| 34 | [useDetectDevice](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useDetectDevice/useDetectDevice.js) | [use] |
+| 35 | [useEffectOnce](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useEffectOnce/useEffectOnce.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useEffectOnce/EffectOnceComponent.jsx) |
+| 36 | [useForm](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useFrom/useForm.js) | [use] |
+| 37 | [useSearchFilter](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSearchFilter/useSearchFilter.js) | [use] |
+| 38 | [useSize](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSize/useSize.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSize/SizeComponent.jsx) |
+| 39 | [useTranslation](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useTranslation/useTranslation.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useTranslation/TranslationComponent.jsx) |
+| 40 | []() | [use]() |
