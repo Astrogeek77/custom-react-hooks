@@ -44,4 +44,4 @@
 | 37 | [useSearchFilter](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSearchFilter/useSearchFilter.js) | use |
 | 38 | [useSize](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSize/useSize.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useSize/SizeComponent.jsx) |
 | 39 | [useTranslation](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useTranslation/useTranslation.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useTranslation/TranslationComponent.jsx) |
-
+| 40 | [useLongPress](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useLongPress/useLongPress.js) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useLongPress/LongPressComponent.jsx) |
