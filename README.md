@@ -1,8 +1,10 @@
 # Custom React Hooks
 
-## Custom hooks library with reusable and amazing custom react hooks.
+## Custom hooks library with over 40 reusable and amazing custom react hooks.
 
+### Enjoy Share Suggest
 
+### All Hooks :-
 |#| Custom Hook (src)    | docs          | 
 |-----| ------------- |:-------------:|
 | 1 | [useArray](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useArray/useArray.jsx) | [use](https://github.com/Astrogeek77/custom-react-hooks/blob/main/src/hooks/useArray/ArrayComponent.jsx) |
