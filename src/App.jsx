@@ -23,6 +23,8 @@ import EffectOnceComponent from './hooks/useEffectOnce/EffectOnceComponent';
 import CopyToClipboardComponent from './hooks/useCopyToClipboard/CopyToClipboardComponent'
 import CamelCaseComponent from './hooks/useCamelCase/CamelCaseComponent'
 import ToggleTextComponent from './hooks/useToggleText/ToggleTextComponent'
+import DebugInformationComponent from './hooks/useDebugInfo/useDebugInfo'
+import LongPressComponent from './hooks/useLongPress/useLongPress'
 
 import './App.css';
 
@@ -52,7 +54,9 @@ function App() {
     // <EffectOnceComponent />
     // <CopyToClipboardComponent />
     // <CamelCaseComponent />
-    <ToggleTextComponent />
+    // <ToggleTextComponent />
+    // <DebugInformationComponent />
+    <LongPressComponent />
   );
 }
 
